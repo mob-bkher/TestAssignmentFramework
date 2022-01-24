@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="14" passed="13" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-24T12:06:11Z" name="Suite" finished-at="2022-01-24T12:06:50Z" duration-ms="38896">
+    <groups>
+      <group name="sanity">
+        <method signature="TestAlertUrlPage.LoginWithEmptypasswordCredentials()[pri:2, instance:practiceTest.TestAlertUrlPage@27c6e487]" name="LoginWithEmptypasswordCredentials" class="practiceTest.TestAlertUrlPage"/>
+        <method signature="TestAlertUrlPage.LoginWithEmptyusernameCredentials()[pri:1, instance:practiceTest.TestAlertUrlPage@27c6e487]" name="LoginWithEmptyusernameCredentials" class="practiceTest.TestAlertUrlPage"/>
+        <method signature="TestAlertUrlPage.LoginWithEmptyusernamePasswordCredentials()[pri:3, instance:practiceTest.TestAlertUrlPage@27c6e487]" name="LoginWithEmptyusernamePasswordCredentials" class="practiceTest.TestAlertUrlPage"/>
+        <method signature="TestAlertUrlPage.LoginWithInvalidCredentials()[pri:0, instance:practiceTest.TestAlertUrlPage@27c6e487]" name="LoginWithInvalidCredentials" class="practiceTest.TestAlertUrlPage"/>
+        <method signature="TestAlertUrlPage.LoginWithvalidCredentials()[pri:4, instance:practiceTest.TestAlertUrlPage@27c6e487]" name="LoginWithvalidCredentials" class="practiceTest.TestAlertUrlPage"/>
+        <method signature="TestHomePageBeforeLogin.VerifyYourfeedtab()[pri:1, instance:practiceTest.TestHomePageBeforeLogin@255b53dc]" name="VerifyYourfeedtab" class="practiceTest.TestHomePageBeforeLogin"/>
+        <method signature="TestHomePageBeforeLogin.verifyHomepageLinks()[pri:0, instance:practiceTest.TestHomePageBeforeLogin@255b53dc]" name="verifyHomepageLinks" class="practiceTest.TestHomePageBeforeLogin"/>
+        <method signature="TestSignUpPage.CheckSignupButton()[pri:2, instance:practiceTest.TestSignUpPage@1a38c59b]" name="CheckSignupButton" class="practiceTest.TestSignUpPage"/>
+        <method signature="TestSignUpPage.CheckSignupButtonAllFieldEmpty()[pri:3, instance:practiceTest.TestSignUpPage@1a38c59b]" name="CheckSignupButtonAllFieldEmpty" class="practiceTest.TestSignUpPage"/>
+        <method signature="TestSignUpPage.CheckSignupButtonWhenEmilIsEntered()[pri:4, instance:practiceTest.TestSignUpPage@1a38c59b]" name="CheckSignupButtonWhenEmilIsEntered" class="practiceTest.TestSignUpPage"/>
+        <method signature="TestSignUpPage.CheckSignupButtonWhenPasswordIsEntered()[pri:5, instance:practiceTest.TestSignUpPage@1a38c59b]" name="CheckSignupButtonWhenPasswordIsEntered" class="practiceTest.TestSignUpPage"/>
+        <method signature="TestSignUpPage.CheckSignupButtonWithValidData()[pri:6, instance:practiceTest.TestSignUpPage@1a38c59b]" name="CheckSignupButtonWithValidData" class="practiceTest.TestSignUpPage"/>
+        <method signature="TestSignUpPage.VerifyHeaderext()[pri:1, instance:practiceTest.TestSignUpPage@1a38c59b]" name="VerifyHeaderext" class="practiceTest.TestSignUpPage"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2022-01-24T12:06:11Z" name="Test" finished-at="2022-01-24T12:06:22Z" duration-ms="10499">
+      <class name="practiceTest.TestAlertUrlPage">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:practiceTest.TestAlertUrlPage@27c6e487]" started-at="2022-01-24T12:06:11Z" name="initialize" finished-at="2022-01-24T12:06:11Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method is-config="true" signature="startreportForMethod(java.lang.reflect.Method)[pri:0, instance:practiceTest.TestAlertUrlPage@27c6e487]" started-at="2022-01-24T12:06:11Z" name="startreportForMethod" finished-at="2022-01-24T12:06:12Z" duration-ms="1115" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void practiceTest.TestAlertUrlPage.LoginWithInvalidCredentials()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startreportForMethod -->
+        <test-method signature="LoginWithInvalidCredentials()[pri:0, instance:practiceTest.TestAlertUrlPage@27c6e487]" started-at="2022-01-24T12:06:12Z" name="LoginWithInvalidCredentials" description="Enter invalid credentials on alert pop up" finished-at="2022-01-24T12:06:14Z" duration-ms="1496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithInvalidCredentials -->
+        <test-method is-config="true" signature="startreportForMethod(java.lang.reflect.Method)[pri:0, instance:practiceTest.TestAlertUrlPage@27c6e487]" started-at="2022-01-24T12:06:14Z" name="startreportForMethod" finished-at="2022-01-24T12:06:14Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void practiceTest.TestAlertUrlPage.LoginWithEmptyusernameCredentials()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startreportForMethod -->
+        <test-method signature="LoginWithEmptyusernameCredentials()[pri:1, instance:practiceTest.TestAlertUrlPage@27c6e487]" started-at="2022-01-24T12:06:14Z" name="LoginWithEmptyusernameCredentials" description="Enter valid password and empty username on alert pop up" finished-at="2022-01-24T12:06:15Z" duration-ms="976" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithEmptyusernameCredentials -->
+        <test-method is-config="true" signature="startreportForMethod(java.lang.reflect.Method)[pri:0, instance:practiceTest.TestAlertUrlPage@27c6e487]" started-at="2022-01-24T12:06:15Z" name="startreportForMethod" finished-at="2022-01-24T12:06:15Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void practiceTest.TestAlertUrlPage.LoginWithEmptypasswordCredentials()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startreportForMethod -->
+        <test-method signature="LoginWithEmptypasswordCredentials()[pri:2, instance:practiceTest.TestAlertUrlPage@27c6e487]" started-at="2022-01-24T12:06:15Z" name="LoginWithEmptypasswordCredentials" description="Enter valid username and empty password on alert pop up" finished-at="2022-01-24T12:06:16Z" duration-ms="936" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithEmptypasswordCredentials -->
+        <test-method is-config="true" signature="startreportForMethod(java.lang.reflect.Method)[pri:0, instance:practiceTest.TestAlertUrlPage@27c6e487]" started-at="2022-01-24T12:06:17Z" name="startreportForMethod" finished-at="2022-01-24T12:06:17Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void practiceTest.TestAlertUrlPage.LoginWithEmptyusernamePasswordCredentials()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startreportForMethod -->
+        <test-method signature="LoginWithEmptyusernamePasswordCredentials()[pri:3, instance:practiceTest.TestAlertUrlPage@27c6e487]" started-at="2022-01-24T12:06:17Z" name="LoginWithEmptyusernamePasswordCredentials" description="empty username and empty password on alert pop up" finished-at="2022-01-24T12:06:17Z" duration-ms="927" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithEmptyusernamePasswordCredentials -->
+        <test-method is-config="true" signature="startreportForMethod(java.lang.reflect.Method)[pri:0, instance:practiceTest.TestAlertUrlPage@27c6e487]" started-at="2022-01-24T12:06:18Z" name="startreportForMethod" finished-at="2022-01-24T12:06:18Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void practiceTest.TestAlertUrlPage.LoginWithvalidCredentials()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startreportForMethod -->
+        <test-method signature="LoginWithvalidCredentials()[pri:4, instance:practiceTest.TestAlertUrlPage@27c6e487]" started-at="2022-01-24T12:06:18Z" name="LoginWithvalidCredentials" description="Enter valid credentials on alert pop up" finished-at="2022-01-24T12:06:21Z" duration-ms="3409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithvalidCredentials -->
+        <test-method is-config="true" signature="terminateApp()[pri:0, instance:practiceTest.TestAlertUrlPage@27c6e487]" started-at="2022-01-24T12:06:22Z" name="terminateApp" finished-at="2022-01-24T12:06:22Z" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateApp -->
+      </class> <!-- practiceTest.TestAlertUrlPage -->
+    </test> <!-- Test -->
+    <test started-at="2022-01-24T12:06:22Z" name="Test1" finished-at="2022-01-24T12:06:38Z" duration-ms="16129">
+      <class name="practiceTest.TestHomePageBeforeLogin">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:practiceTest.TestHomePageBeforeLogin@255b53dc]" started-at="2022-01-24T12:06:22Z" name="initialize" finished-at="2022-01-24T12:06:22Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method is-config="true" signature="startreportForMethod(java.lang.reflect.Method)[pri:0, instance:practiceTest.TestHomePageBeforeLogin@255b53dc]" started-at="2022-01-24T12:06:22Z" name="startreportForMethod" finished-at="2022-01-24T12:06:22Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void practiceTest.TestHomePageBeforeLogin.verifyHomepageLinks()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startreportForMethod -->
+        <test-method signature="verifyHomepageLinks()[pri:0, instance:practiceTest.TestHomePageBeforeLogin@255b53dc]" started-at="2022-01-24T12:06:22Z" name="verifyHomepageLinks" description="Check All hoempage links" finished-at="2022-01-24T12:06:27Z" duration-ms="4984" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomepageLinks -->
+        <test-method is-config="true" signature="startreportForMethod(java.lang.reflect.Method)[pri:0, instance:practiceTest.TestHomePageBeforeLogin@255b53dc]" started-at="2022-01-24T12:06:27Z" name="startreportForMethod" finished-at="2022-01-24T12:06:27Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void practiceTest.TestHomePageBeforeLogin.VerifyYourfeedtab()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startreportForMethod -->
+        <test-method signature="VerifyYourfeedtab()[pri:1, instance:practiceTest.TestHomePageBeforeLogin@255b53dc]" started-at="2022-01-24T12:06:27Z" name="VerifyYourfeedtab" description="Check All hoempage links" finished-at="2022-01-24T12:06:38Z" duration-ms="10478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyYourfeedtab -->
+        <test-method is-config="true" signature="terminateApp()[pri:0, instance:practiceTest.TestHomePageBeforeLogin@255b53dc]" started-at="2022-01-24T12:06:38Z" name="terminateApp" finished-at="2022-01-24T12:06:38Z" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateApp -->
+      </class> <!-- practiceTest.TestHomePageBeforeLogin -->
+    </test> <!-- Test1 -->
+    <test started-at="2022-01-24T12:06:39Z" name="Test2" finished-at="2022-01-24T12:06:50Z" duration-ms="10999">
+      <class name="practiceTest.TestSignUpPage">
+        <test-method is-config="true" signature="OpenBrowser(java.lang.String)[pri:0, instance:practiceTest.TestSignUpPage@1a38c59b]" started-at="2022-01-24T12:06:06Z" name="OpenBrowser" finished-at="2022-01-24T12:06:11Z" duration-ms="4743" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:practiceTest.TestSignUpPage@1a38c59b]" started-at="2022-01-24T12:06:39Z" name="initialize" finished-at="2022-01-24T12:06:39Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method is-config="true" signature="startreportForMethod(java.lang.reflect.Method)[pri:0, instance:practiceTest.TestSignUpPage@1a38c59b]" started-at="2022-01-24T12:06:39Z" name="startreportForMethod" finished-at="2022-01-24T12:06:39Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void practiceTest.TestSignUpPage.VerifyHeaderext()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startreportForMethod -->
+        <test-method signature="VerifyHeaderext()[pri:1, instance:practiceTest.TestSignUpPage@1a38c59b]" started-at="2022-01-24T12:06:39Z" name="VerifyHeaderext" description="Verify the header text of Sign Up" finished-at="2022-01-24T12:06:40Z" duration-ms="849" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyHeaderext -->
+        <test-method is-config="true" signature="startreportForMethod(java.lang.reflect.Method)[pri:0, instance:practiceTest.TestSignUpPage@1a38c59b]" started-at="2022-01-24T12:06:40Z" name="startreportForMethod" finished-at="2022-01-24T12:06:40Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void practiceTest.TestSignUpPage.CheckSignupButton()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startreportForMethod -->
+        <test-method signature="CheckSignupButton()[pri:2, instance:practiceTest.TestSignUpPage@1a38c59b]" started-at="2022-01-24T12:06:40Z" name="CheckSignupButton" description="Verify the sign up button when entering invalid username and keep other field empoty" finished-at="2022-01-24T12:06:42Z" duration-ms="1935" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckSignupButton -->
+        <test-method is-config="true" signature="startreportForMethod(java.lang.reflect.Method)[pri:0, instance:practiceTest.TestSignUpPage@1a38c59b]" started-at="2022-01-24T12:06:42Z" name="startreportForMethod" finished-at="2022-01-24T12:06:42Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void practiceTest.TestSignUpPage.CheckSignupButtonAllFieldEmpty()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startreportForMethod -->
+        <test-method signature="CheckSignupButtonAllFieldEmpty()[pri:3, instance:practiceTest.TestSignUpPage@1a38c59b]" started-at="2022-01-24T12:06:42Z" name="CheckSignupButtonAllFieldEmpty" description="Verify  and validate the sign up page functionality when all the fields are empty." finished-at="2022-01-24T12:06:43Z" duration-ms="350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckSignupButtonAllFieldEmpty -->
+        <test-method is-config="true" signature="startreportForMethod(java.lang.reflect.Method)[pri:0, instance:practiceTest.TestSignUpPage@1a38c59b]" started-at="2022-01-24T12:06:43Z" name="startreportForMethod" finished-at="2022-01-24T12:06:43Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void practiceTest.TestSignUpPage.CheckSignupButtonWhenEmilIsEntered()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startreportForMethod -->
+        <test-method signature="CheckSignupButtonWhenEmilIsEntered()[pri:4, instance:practiceTest.TestSignUpPage@1a38c59b]" started-at="2022-01-24T12:06:43Z" name="CheckSignupButtonWhenEmilIsEntered" description="Verify  and validate the sign up page functionality with invalid email id and rest of the data should be empty." finished-at="2022-01-24T12:06:45Z" duration-ms="1785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckSignupButtonWhenEmilIsEntered -->
+        <test-method is-config="true" signature="startreportForMethod(java.lang.reflect.Method)[pri:0, instance:practiceTest.TestSignUpPage@1a38c59b]" started-at="2022-01-24T12:06:45Z" name="startreportForMethod" finished-at="2022-01-24T12:06:45Z" duration-ms="12" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void practiceTest.TestSignUpPage.CheckSignupButtonWhenPasswordIsEntered()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startreportForMethod -->
+        <test-method signature="CheckSignupButtonWhenPasswordIsEntered()[pri:5, instance:practiceTest.TestSignUpPage@1a38c59b]" started-at="2022-01-24T12:06:45Z" name="CheckSignupButtonWhenPasswordIsEntered" description="Verify  and validate the sign up page functionality with valid username and email id and password field should be empty." finished-at="2022-01-24T12:06:47Z" duration-ms="2187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckSignupButtonWhenPasswordIsEntered -->
+        <test-method is-config="true" signature="startreportForMethod(java.lang.reflect.Method)[pri:0, instance:practiceTest.TestSignUpPage@1a38c59b]" started-at="2022-01-24T12:06:48Z" name="startreportForMethod" finished-at="2022-01-24T12:06:48Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void practiceTest.TestSignUpPage.CheckSignupButtonWithValidData()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startreportForMethod -->
+        <test-method signature="CheckSignupButtonWithValidData()[pri:6, instance:practiceTest.TestSignUpPage@1a38c59b]" started-at="2022-01-24T12:06:48Z" name="CheckSignupButtonWithValidData" description="Verify  and validate the sign up page functionality with valid username and email id and password." finished-at="2022-01-24T12:06:50Z" duration-ms="1983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckSignupButtonWithValidData -->
+        <test-method is-config="true" signature="terminateApp()[pri:0, instance:practiceTest.TestSignUpPage@1a38c59b]" started-at="2022-01-24T12:06:50Z" name="terminateApp" finished-at="2022-01-24T12:06:50Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateApp -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:practiceTest.TestSignUpPage@1a38c59b]" started-at="2022-01-24T12:06:50Z" name="CloseBrowser" finished-at="2022-01-24T12:06:51Z" duration-ms="1188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- practiceTest.TestSignUpPage -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
