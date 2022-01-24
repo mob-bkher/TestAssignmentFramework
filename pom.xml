@@ -1,0 +1,113 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>Backbase</groupId>
+  <artifactId>backbase</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+
+
+
+<properties>
+        <!--Dependencies Versions-->
+       
+        <compiler-pluginVersion>3.8.0</compiler-pluginVersion>
+        <surefire-pluginVersion>3.0.0-M5</surefire-pluginVersion>
+        <project.java.version>1.8</project.java.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+</properties>
+
+
+<dependencies>
+			<dependency>
+    				<groupId>org.seleniumhq.selenium</groupId>
+    				<artifactId>selenium-java</artifactId>
+    				<version>3.141.59</version>
+			</dependency>
+			<dependency>
+   					<groupId>org.testng</groupId>
+				    <artifactId>testng</artifactId>
+				    <version>6.14.3</version>
+				    <scope>compile</scope>
+			</dependency>
+		<dependency>
+					<groupId>com.googlecode.json-simple</groupId>
+					<artifactId>json-simple</artifactId>
+					 <version>1.1.1</version>
+		</dependency>
+		<dependency>
+        		    <groupId>org.json</groupId>
+            		<artifactId>json</artifactId>
+            		<version>20200518</version>
+        </dependency>
+		<dependency>
+ 		           <groupId>io.rest-assured</groupId>
+        		    <artifactId>json-path</artifactId>
+           			 <version>3.2.0</version>
+        </dependency>
+
+		<dependency>
+  					<groupId>log4j</groupId>
+  					<artifactId>log4j</artifactId>
+  					<version>1.2.17</version>
+		</dependency>
+		<dependency>
+            		<groupId>com.relevantcodes</groupId>
+            		<artifactId>extentreports</artifactId>
+            		<version>2.41.2</version>
+        </dependency>
+		 <dependency>
+        	    	<groupId>org.apache.logging.log4j</groupId>
+           			 <artifactId>log4j-core</artifactId>
+            		<version>2.13.3</version>
+        </dependency>
+		<dependency>
+            		<groupId>org.javassist</groupId>
+            		<artifactId>javassist</artifactId>
+            		<version>3.27.0-GA</version>
+        </dependency>
+		<dependency>
+    				<groupId>org.seleniumhq.selenium</groupId>
+    				<artifactId>selenium-chrome-driver</artifactId>
+   					 <version>2.50.0</version>
+		</dependency>	
+		<dependency>
+    				<groupId>io.github.bonigarcia</groupId>
+    				<artifactId>webdrivermanager</artifactId>
+    				<version>5.0.3</version>
+		</dependency>
+</dependencies>
+
+<build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>${compiler-pluginVersion}</version>
+                <configuration>
+                    <source>${project.java.version}</source>
+                    <target>${project.java.version}</target>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>${surefire-pluginVersion}</version>
+                <configuration>
+                    <suiteXmlFiles>
+                        <suiteXmlFile>testng.xml</suiteXmlFile>
+                    </suiteXmlFiles>
+                    <printSummary>true</printSummary>
+					<systemProperties>
+                        <property>
+                            <name>browser</name>
+                            <value>${browser}</value>
+                        </property>
+                    </systemProperties>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+
+</project>
